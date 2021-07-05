@@ -6,7 +6,7 @@
   <link href="https://mrhang1.github.io/atom.xml" rel="self"/>
   
   <link href="https://mrhang1.github.io/"/>
-  <updated>2021-07-04T04:41:02.200Z</updated>
+  <updated>2021-07-05T14:07:01.217Z</updated>
   <id>https://mrhang1.github.io/</id>
   
   <author>
@@ -17,23 +17,71 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>2021 JAVA 经典面试题目</title>
-    <link href="https://mrhang1.github.io/posts/3eeb.html"/>
-    <id>https://mrhang1.github.io/posts/3eeb.html</id>
-    <published>2021-07-03T15:03:06.760Z</published>
-    <updated>2021-07-04T04:41:02.200Z</updated>
+    <title>2021 Java面试题</title>
+    <link href="https://mrhang1.github.io/posts/4df1.html"/>
+    <id>https://mrhang1.github.io/posts/4df1.html</id>
+    <published>2021-07-05T12:55:56.000Z</published>
+    <updated>2021-07-05T14:07:01.217Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;2021-JAVA-经典面试题目&quot;&gt;&lt;a href=&quot;#2021-JAVA-经典面试题目&quot; class=&quot;headerlink&quot; title=&quot;2021 JAVA 经典面试题目&quot;&gt;&lt;/a&gt;2021 JAVA</summary>
+    <summary type="html">&lt;h1 id=&quot;JAVA-经典面试题目&quot;&gt;&lt;a href=&quot;#JAVA-经典面试题目&quot; class=&quot;headerlink&quot; title=&quot;JAVA 经典面试题目&quot;&gt;&lt;/a&gt;JAVA 经典面试题目&lt;/h1&gt;&lt;p&gt;本面试题包括以下十九个模块：Java</summary>
         
       
     
     
     
+    
+    <category term="面试题" scheme="https://mrhang1.github.io/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    
+    <category term="Java 基础" scheme="https://mrhang1.github.io/tags/Java-%E5%9F%BA%E7%A1%80/"/>
+    
+    <category term="容器" scheme="https://mrhang1.github.io/tags/%E5%AE%B9%E5%99%A8/"/>
+    
+    <category term="多线程" scheme="https://mrhang1.github.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    
+    <category term="反射" scheme="https://mrhang1.github.io/tags/%E5%8F%8D%E5%B0%84/"/>
+    
+    <category term="对象拷贝" scheme="https://mrhang1.github.io/tags/%E5%AF%B9%E8%B1%A1%E6%8B%B7%E8%B4%9D/"/>
+    
+    <category term="Java Web 模块" scheme="https://mrhang1.github.io/tags/Java-Web-%E6%A8%A1%E5%9D%97/"/>
+    
+    <category term="异常" scheme="https://mrhang1.github.io/tags/%E5%BC%82%E5%B8%B8/"/>
+    
+    <category term="网络" scheme="https://mrhang1.github.io/tags/%E7%BD%91%E7%BB%9C/"/>
+    
+    <category term="设计模式" scheme="https://mrhang1.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    <category term="Spring" scheme="https://mrhang1.github.io/tags/Spring/"/>
+    
+    <category term="Spring MVC" scheme="https://mrhang1.github.io/tags/Spring-MVC/"/>
+    
+    <category term="Spring Boot" scheme="https://mrhang1.github.io/tags/Spring-Boot/"/>
+    
+    <category term="Spring Cloud" scheme="https://mrhang1.github.io/tags/Spring-Cloud/"/>
+    
+    <category term="Hibernate" scheme="https://mrhang1.github.io/tags/Hibernate/"/>
+    
+    <category term="Mybatis" scheme="https://mrhang1.github.io/tags/Mybatis/"/>
+    
+    <category term="RabbitMQ" scheme="https://mrhang1.github.io/tags/RabbitMQ/"/>
+    
+    <category term="Kafka" scheme="https://mrhang1.github.io/tags/Kafka/"/>
+    
+    <category term="Zookeeper" scheme="https://mrhang1.github.io/tags/Zookeeper/"/>
+    
+    <category term="MySql" scheme="https://mrhang1.github.io/tags/MySql/"/>
+    
+    <category term="Redis" scheme="https://mrhang1.github.io/tags/Redis/"/>
+    
+    <category term="JVM" scheme="https://mrhang1.github.io/tags/JVM/"/>
+    
+    <category term="Vue" scheme="https://mrhang1.github.io/tags/Vue/"/>
+    
+    <category term="Linux" scheme="https://mrhang1.github.io/tags/Linux/"/>
     
   </entry>
   
