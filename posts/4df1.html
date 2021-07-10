@@ -237,7 +237,7 @@
         
         <li><div class="divider"></div></li>
         <li>
-            <a href="https://github.com/blinkfox/hexo-theme-matery" class="waves-effect waves-light" target="_blank">
+            <a href="https://github.com/mrhang1" class="waves-effect waves-light" target="_blank">
                 <i class="fab fa-github-square fa-fw"></i>Fork Me
             </a>
         </li>
@@ -294,7 +294,7 @@
     }
 </style>
 
-<a href="https://github.com/blinkfox/hexo-theme-matery" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+<a href="https://github.com/mrhang1" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
    data-tooltip="Fork Me" data-position="left" data-delay="50">
     <svg viewBox="0 0 250 250" aria-hidden="true">
         <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
@@ -1461,11 +1461,12 @@
 </thead>
 <tbody><tr>
 <td></td>
-<td><img src="/posts/4df1/clip_image025.gif" alt="img"></td>
+<td><img src="/posts/4df1/clip_image024.png" alt="img"></td>
 </tr>
 </tbody></table>
 <p>\2.   场景 2：单发送多接收</p>
-<p><img src="/posts/4df1/clip_image027.jpg" alt="img">使用场景：一个发送端，多个接收端，如分布式的任务派发。为了保证消息发送的可靠性，不丢失消息，使消息持久化了。同时为了防止接收端在处理消息时 down 掉，只有在消息处理完成后才发送ack 消息。</p>
+<p>使用场景：一个发送端，多个接收端，如分布式的任务派发。为了保证消息发送的可靠性，不丢失消息，使消息持久化了。同时为了防止接收端在处理消息时 down 掉，只有在消息处理完成后才发送ack 消息。</p>
+<p> <img src="/posts/4df1/clip_image026.jpg" alt="img"></p>
 <p>\3.   场景 3：Publish/Subscribe</p>
 <p>使用场景：发布、订阅模式，发送端发送广播消息，多个接收端接收。</p>
 <p><img src="/posts/4df1/clip_image028.jpg" alt="img"></p>
@@ -1480,11 +1481,12 @@
 </thead>
 <tbody><tr>
 <td></td>
-<td><img src="/posts/4df1/clip_image030.jpg" alt="img"></td>
+<td><img src="/posts/4df1/clip_image029.jpg" alt="img"></td>
 </tr>
 </tbody></table>
 <p>\5.   场景 5：Topics (按 topic 发送接收)</p>
-<p><img src="/posts/4df1/clip_image032.jpg" alt="img">使用场景：发送端不只按固定的 routing key 发送消息，而是按字符串“匹配”发送，接收端同样如此。</p>
+<p>使用场景：发送端不只按固定的 routing key 发送消息，而是按字符串“匹配”发送，接收端同样如此。</p>
+<p> <img src="/posts/4df1/clip_image031.jpg" alt="img"></p>
 <h3 id="11-rabbitmq-怎么实现延迟消息队列？"><a href="#11-rabbitmq-怎么实现延迟消息队列？" class="headerlink" title="11. rabbitmq 怎么实现延迟消息队列？"></a>11. rabbitmq 怎么实现延迟消息队列？</h3><p>AMQP 协议，以及 RabbitMQ 本身没有直接支持延迟队列的功能，但是可以通过 TTL 和 DLX 模拟出延迟队列的功能。</p>
 <h3 id="12-rabbitmq-集群有什么用？"><a href="#12-rabbitmq-集群有什么用？" class="headerlink" title="12. rabbitmq 集群有什么用？"></a>12. rabbitmq 集群有什么用？</h3><p>高可用：某个服务器出现问题，整个 RabbitMQ 还可以继续使用。高容量：集群可以承载更多的消息量。</p>
 <h3 id="13-rabbitmq-节点的类型有哪些？"><a href="#13-rabbitmq-节点的类型有哪些？" class="headerlink" title="13. rabbitmq 节点的类型有哪些？"></a>13. rabbitmq 节点的类型有哪些？</h3><p>磁盘节点：消息会存储到磁盘。</p>
@@ -2476,6 +2478,43 @@
 
 </div>
 
+
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('0')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: Mr.Hang<br />'
+            + '文章作者: Mr.Hang<br />'
+            + '文章链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者Mr.Hang所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
 
 
 <!-- 代码块功能依赖 -->
