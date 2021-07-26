@@ -6,7 +6,7 @@
   <link href="https://mrhang1.github.io/atom.xml" rel="self"/>
   
   <link href="https://mrhang1.github.io/"/>
-  <updated>2021-07-10T03:43:34.791Z</updated>
+  <updated>2021-07-26T14:49:56.409Z</updated>
   <id>https://mrhang1.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>非常好用的idea插件你知道那些</title>
+    <link href="https://mrhang1.github.io/posts/fcd3.html"/>
+    <id>https://mrhang1.github.io/posts/fcd3.html</id>
+    <published>2021-07-26T14:21:58.000Z</published>
+    <updated>2021-07-26T14:49:56.409Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;安装好 Intellij idea 之后，进行如下的初始化操作，工作效率提升十倍。&lt;/p&gt;
+&lt;h1 id=&quot;1-插件&quot;&gt;&lt;a href=&quot;#1-插件&quot; class=&quot;headerlink&quot; title=&quot;1.插件&quot;&gt;&lt;/a&gt;1.插件&lt;/h1&gt;&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="插件配置" scheme="https://mrhang1.github.io/categories/%E6%8F%92%E4%BB%B6%E9%85%8D%E7%BD%AE/"/>
+    
+    
+    <category term="插件配置" scheme="https://mrhang1.github.io/tags/%E6%8F%92%E4%BB%B6%E9%85%8D%E7%BD%AE/"/>
+    
+  </entry>
   
   <entry>
     <title>什么是微服务和SpringCloud？</title>
